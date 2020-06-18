@@ -1,12 +1,8 @@
 {
   "expo": {
-    "name": "covid",
-    "slug": "covid",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "covid-19",
+    "slug": "Go-corona-Go",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +14,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.bigheart.covid",
+      "versionCode": 1
+    },
+    "description": ""
   }
 }
